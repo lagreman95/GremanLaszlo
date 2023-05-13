@@ -1,0 +1,46 @@
+header {
+    border-radius: 2px;
+    background-color: rgb(98, 227, 169);
+    padding: 5px;
+    
+}
+div#wrapper {
+    width: 100%;
+}
+
+aside {
+    float: left;
+    width: 100%;
+    padding: 0;
+    list-style-type: none;
+    background-color: #000;
+   }
+   aside li { display:inline }
+   aside a {
+    float:left;
+    padding: 1em;
+    color: #DDD;
+    text-decoration: none; 
+   }
+   aside a:hover { background-color:rgb(30, 96, 17)}
+
+
+div#content {
+    display: table-cell;
+    width: 100%;
+    background-color: #99FFCC;
+    padding: 15px;
+}
+
+div#content img{
+    float: right;
+    margin: 0 0 15px 15px;
+    padding: 3px;
+    border: 3px solid rgb(76, 231, 91);
+}
+
+footer {
+    padding: 5px 20px;
+    background-color: #1df577;
+    border-radius: 5px;
+}
